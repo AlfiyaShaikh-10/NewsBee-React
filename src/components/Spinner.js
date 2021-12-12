@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Fading_lines from './Fading_lines.gif';
-export default class Spinner extends Component {
-    render() {
+const Spinner =()=>{
         return (
             <div className = "text-center">
                 <img src={Fading_lines} alt="loading"/>
                 
             </div>
         )
-    }
+    
 }
+export default Spinner;
